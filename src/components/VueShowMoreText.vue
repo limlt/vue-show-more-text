@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: 'ShowMoreText',
+  name: 'VueShowMoreText',
   props: {
     lines: {
       type: Number,

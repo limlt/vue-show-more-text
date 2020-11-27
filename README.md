@@ -1,6 +1,6 @@
 # show-more-text ( for vue.js)
 
-[![Version](https://img.shields.io/npm/v/show-more-text.svg)](https://www.npmjs.com/package/show-more-text) [![License](https://img.shields.io/npm/l/vue-show-more-text.svg)](https://www.npmjs.com/package/show-more-text) [![Downloads](https://img.shields.io/npm/dt/vue-show-more-text.svg)](https://www.npmjs.com/package/show-more-text)
+[![Version](https://img.shields.io/npm/v/vue-show-more-text.svg)](https://www.npmjs.com/package/vue-show-more-text) [![License](https://img.shields.io/npm/l/vue-show-more-text.svg)](https://www.npmjs.com/package/vue-show-more-text) [![Downloads](https://img.shields.io/npm/dt/vue-show-more-text.svg)](https://www.npmjs.com/package/vue-show-more-text)
 
 Vue multiline sentence ellipsis component. The text in the component will be truncated.
 
@@ -10,7 +10,7 @@ Vue multiline sentence ellipsis component. The text in the component will be tru
 
 ### NPM
 ```
-$ npm install show-more-text --save
+$ npm install vue-show-more-text --save
 ```
 
 ### Run demo 
@@ -46,7 +46,7 @@ $ open http://localhost:8080 in browser
     <v-flex xs12 sm8 md6>
       <v-card>
         <v-card-text>
-          <show-more-text
+          <vue-show-more-text
             :text="txtString"
             :lines="4"
             additional-container-css="margin:14px;"
@@ -62,10 +62,10 @@ $ open http://localhost:8080 in browser
 </template>
 
 <script>
-import showMoreText from 'show-more-text'
+import vueShowMoreText from 'vue-show-more-text'
 export default {
   components: {
-    showMoreText,
+    vueShowMoreText,
   },
   data() {
     return {

@@ -1,3 +1,3 @@
-import ShowMoreText from "./components/ShowMoreText.vue";
+import VueShowMoreText from "./components/VueShowMoreText.vue";
 
-export default ShowMoreText;
+export default VueShowMoreText;

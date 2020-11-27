@@ -1,15 +1,15 @@
 {
-  "name": "show-more-text",
-  "version": "1.0.1",
+  "name": "vue-show-more-text",
+  "version": "1.0.0",
   "files": [
     "dist/*",
     "src/**/*.vue"
   ],
-  "main": "dist/showMoreText.common.js",
+  "main": "dist/vueShowMoreText.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-package": "vue-cli-service build --target lib --name showMoreText ./src/index.js",
+    "build-package": "vue-cli-service build --target lib --name vueShowMoreText ./src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -48,10 +48,10 @@
     "last 2 versions",
     "not dead"
   ],
-  "homepage": "https://github.com/limlt/show-more-text.git#readme",
+  "homepage": "https://github.com/limlt/vue-show-more-text.git#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/limlt/show-more-text.git"
+    "url": "git+https://github.com/limlt/vue-show-more-text.git"
   },
   "license": "MIT",
   "keywords": [
