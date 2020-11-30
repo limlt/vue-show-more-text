@@ -19,7 +19,6 @@ $ git clone https://github.com/limlt/show-more-text-demo
 $ cd show-more-text-demo
 $ npm install
 $ npm run dev
-$ open http://localhost:8080 in browser
 ```
 
 ## ShowMoreText Component Attributes
