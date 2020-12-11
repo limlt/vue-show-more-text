@@ -1,8 +1,8 @@
-# show-more-text ( for vue.js)
+# show-more-text ( for vue.js 2.x)
 
 [![Version](https://img.shields.io/npm/v/vue-show-more-text.svg)](https://www.npmjs.com/package/vue-show-more-text) [![License](https://img.shields.io/npm/l/vue-show-more-text.svg)](https://www.npmjs.com/package/vue-show-more-text) [![Downloads](https://img.shields.io/npm/dt/vue-show-more-text.svg)](https://www.npmjs.com/package/vue-show-more-text)
 
-Vue multiline sentence ellipsis component. The text in the component will be truncated.
+A simple vue multiline sentence ellipsis component for vue.js 2.x. The text in the component will be truncated automatically by line numbers, without specifying text max length.
 
 ![エビフライトライアングル](doc/img/vue-show-mote-text-demo.gif "サンプル")
 
